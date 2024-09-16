@@ -1,13 +1,8 @@
 import "./assets/styles/App.scss";
-import { Wrapper } from "./components/Wrapper/Wrapper";
-import { Atom } from "./components/Atom/Atom";
+import { Calculator } from "./components/Calculator/Calculator";
 
 function App() {
-  return (
-    <Wrapper>
-      <Atom></Atom>
-    </Wrapper>
-  );
+  return <Calculator />;
 }
 
 export default App;
